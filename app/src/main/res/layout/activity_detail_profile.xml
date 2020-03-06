@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailProfileNbaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C0C0"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:paddingRight="10dp"
+            android:src="@drawable/img_atlanta_hawks">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/title_team"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/atlanta_hawks"
+            android:textSize="30dp"
+            android:textStyle="italic|bold">
+
+        </TextView>
+    </LinearLayout>
+        <ScrollView
+            android:id="@+id/sc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/photo_team"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_zfoto_atlanta_hawks">
+            </ImageView>
+        </ScrollView>
+</LinearLayout>

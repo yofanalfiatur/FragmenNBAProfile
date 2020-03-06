@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FragmenNBA</string>
+
+    <string name="atlanta_hawks">Atlanta Hawks</string>
+    <string name="desc_atlanta_hawks">
+        The Atlanta Hawks are an American professional
+        basketball team based in Atlanta, Georgia.
+        They are part of the Southeast Division of the Eastern Conference
+        in the National Basketball Association.
+        They play their home games at Philips Arena in downtown Atlanta.
+    </string>
+    <string name="lihat">DETAIL</string>
+    <string name="share">SHARE</string>
+</resources>
